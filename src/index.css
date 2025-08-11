@@ -1,0 +1,50 @@
+@import "tailwindcss";
+input[type="range"].custom-range {
+  --thumb-size: 12px;
+  --thumb-color: #737cde;
+  --track-color: #737cde;
+  --track-height: 4px;
+}
+
+input[type="range"].custom-range::-webkit-slider-runnable-track {
+  height: var(--track-height);
+  background: var(--track-color);
+  border-radius: 9999px;
+}
+
+input[type="range"].custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: var(--thumb-size);
+  width: var(--thumb-size);
+  border-radius: 50%;
+  background: var(--thumb-color);
+  cursor: pointer;
+  margin-top: calc((var(--track-height) - var(--thumb-size)) / 2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type="range"].custom-range:hover::-webkit-slider-thumb {
+  opacity: 1;
+}
+
+input[type="range"].custom-range::-moz-range-track {
+  height: var(--track-height);
+  background: var(--track-color);
+  border-radius: 9999px;
+}
+
+input[type="range"].custom-range::-moz-range-thumb {
+  height: var(--thumb-size);
+  width: var(--thumb-size);
+  border-radius: 50%;
+  background: var(--thumb-color);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type="range"].custom-range:hover::-moz-range-thumb {
+  opacity: 1;
+}
