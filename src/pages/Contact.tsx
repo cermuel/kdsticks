@@ -41,7 +41,7 @@ const Contact = () => {
     setSending(true);
 
     const body = `${form.message}\n\nBest regards,\n${form.name}`;
-    const mailtoLink = `mailto:youremail@example.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:egbebiolamide@gmail.com?subject=${encodeURIComponent(
       form.subject
     )}&body=${encodeURIComponent(body)}`;
 
