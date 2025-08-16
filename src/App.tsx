@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { AudioPlayerProvider } from "./context/AudioPlayer";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Services from "./pages/Services";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Tracks />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
             <Route path="/upload" element={<MusicUploader />} />
           </Routes>
         </Layout>

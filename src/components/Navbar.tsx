@@ -31,7 +31,7 @@ const Navbar = ({
             <RxHamburgerMenu className="text-gray-500 size-4" />
           )}
         </button>
-        <h1 className="text-white text-lg md:text-2xl  font-bold">KD STICKS</h1>
+        <h1 className="text-white text-lg md:text-2xl  font-bold">BASHAN</h1>
       </div>
       <div className=" flex items-center gap-6 h-full">
         <ul

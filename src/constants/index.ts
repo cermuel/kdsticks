@@ -71,4 +71,8 @@ export const discography: { url: string; role: string }[] = [
     url: "https://open.spotify.com/embed/track/24JJG0byphADH2ZFOfPLOp?utm_source=generator",
     role: "Producer",
   },
+  {
+    url: "https://open.spotify.com/embed/playlist/4KW9qtgaQwbuPiBusyQuog?utm_source=generator",
+    role: "Producer (PLAYLIST)",
+  },
 ];
